@@ -67,3 +67,26 @@ h2 {
 	border: 5px solid black;
 	border-radius: 20px;
 }
+.card{
+  align-items: center;
+}
+#card2,#card1,#card3,#card4{
+  margin-left: 38px;
+  /*align-self: center;*/
+  /*align-items: center;*/
+  /*align-content: center;*/
+  margin-top: 20px;
+  text-align: center;
+}
+#stud{
+  color: red;
+
+}
+#foot{
+  margin-top: 242px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+  }
+}
